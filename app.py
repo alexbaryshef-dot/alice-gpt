@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = "ТУТ_ТВОЙ_КЛЮЧ"
+OPENAI_API_KEY = "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"
 
 @app.route('/', methods=['POST'])
 def alice():
